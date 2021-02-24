@@ -1,8 +1,4 @@
 FROM webdevops/nginx
-ENV WEB_DOCUMENT_ROOT /app
-ENV WEB_DOCUMENT_INDEX index.html
-ENV PORT 80
-WORKDIR /app
-COPY . /app
-EXPOSE $PORT
+WORKDIR /usr/share/nginx/html
+COPY . /usr/share/nginx/html
 RUN rm Dockerfile
