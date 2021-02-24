@@ -1,4 +1,6 @@
-FROM nginx
-WORKDIR /usr/share/nginx/html
-COPY . /usr/share/nginx/html
+FROM webdevops/nginx
+ENV WEB_DOCUMENT_ROOT /app
+ENV WEB_DOCUMENT_INDEX index.html
+WORKDIR /app
+COPY . /app
 RUN rm Dockerfile
