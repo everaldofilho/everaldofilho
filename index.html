@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio</title>
+</head>
+
+<body>
+    <header class="header-container" id="home">
+        <div class="header">
+            <div class="checkbox-wrapper">
+                <input type="checkbox" id="toggle">
+                <label class="checkbox" for="toggle">
+                    <div class="trace"></div>
+                    <div class="trace"></div>
+                    <div class="trace"></div>
+                </label>
+                <div class="menu"></div>
+                <nav class="menu-items">
+                    <label for="toogle">
+                        <ul>
+                            <li><a href="#home" onclick="$('#toggle').prop('checked', false).change()">Home</a></li>
+                            <li><a href="#sobre" onclick="$('#toggle').prop('checked', false).change()">Sobre</a></li>
+                            <li><a href="#skills" onclick="$('#toggle').prop('checked', false).change()">Skills</a></li>
+                            <li><a href="#projetos" onclick="$('#toggle').prop('checked', false).change()">Projetos</a></li>
+                        </ul>
+                    </label>
+                </nav>
+            </div>
+        </div>
+        <h1>Everaldo Filho</h1>
+        <h2>Developer Full Stack</h2>
+        <div class="social-media">
+            <a href="https://github.com/everaldofilho" target="_blank">Github</a>
+            <a href="https://www.linkedin.com/in/everaldo-filho" target="_blank">Linkedin</a>
+        </div>
+    </header>
+    <main class="container">
+        <section id="sobre" class="mt-3">
+            <div class="card-container">
+                <div class="row">
+                    <div class="col-12 text-center ">
+                        <h2 class="title">Sobre mim</h2>
+                    </div>
+                    <div class="col-md-4 p-3">
+                        <div class="background-image w-auto">
+                            <div class="card-wrapper"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 p-4 text-default">
+                        <p>Me chamo Everaldo, tenho 27 anos, moro em Ferraz de Vasconcelos – SP, trabalho como Analista
+                            de
+                            Sistema Sênior na empresa Pravaler. </p>
+                        <p>Sou graduado em Analise e Desenvolvimento de Sistemas no Centro Universitário Módulo -
+                            Caraguatatuba
+                            em 2015. </p>
+                        <p>Sou apaixonado por tecnologia, já trabalhei muito como freelance, até percebe que isso estava
+                            tirando
+                            minha paz, já fui auxiliar de
+                            TI e Instrutor de Informática.</p>
+                        <p>Tive oportunidades de estar ao lado de pessoas incríveis, que me ensinaram bastante e
+                            continuam ensinando, e hoje quero ser o que essas pessoas foram pra mim referência!</p>
+                        <p>
+                            <a href="https://github.com/everaldofilho" class="link" target="_blank"><i class="fab fa-2x fa-github-square"></i></a> 
+                            <a href="https://www.linkedin.com/in/everaldo-filho" class="link" target="_blank"><i class="fab fa-2x fa-linkedin"></i></a> 
+                            <a href="https://medium.com/@everaldofilho" class="link" target="_blank"><i class="fab fa-2x fa-medium"></i></a>
+                            <a href="https://twitter.com/EveraldoCFilho" class="link" target="_blank"><i class="fab fa-2x fa-twitter-square"></i></a>
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="mt-3">
+            <div class="card-container mb-3">
+                <h2>Skills </h2>
+            </div>
+            <div class="card-container">
+                <div class="card-skills">
+                    <ul class="skills">
+                        <li>PHP</li>
+                        <li>ELIXIR</li>
+                        <li>NODE</li>
+                        <li>VUEjs</li>
+                        <li>Angular</li>
+                        <li>Bootstrap</li>
+                        <li>CI/CD</li>
+                        <li>CLOUD</li>
+                        <li>GCP</li>
+                        <li>AWS</li>
+                        <li>Azure</li>
+                        <li>Jenkins</li>
+                        <li>Solid</li>
+                        <li>TDD</li>
+                        <li>Microsservice</li>
+                        <li>POO</li>
+                        <li>MVC</li>
+                        <li>APIs</li>
+                        <li>Symfony</li>
+                        <li>Laravel</li>
+                        <li>Yii</li>
+                        <li>Phoenix</li>
+                        <li>TestUnit</li>
+                        <li>Docker</li>
+                        <li>Linux</li>
+                        <li>Pentaho</li>
+                        <li>GIT</li>
+                        <li>Github</li>
+                        <li>Bitbucket</li>
+                        <li>Mysql</li>
+                        <li>MongoDB</li>
+                        <li>DocumentDB</li>
+                        <li>PostgreSQL</li>
+                        <li>SQLite</li>
+                        <li>SQL</li>
+                        <li>QUEUE</li>
+                        <li>RabbitMQ</li>
+                        <li>Kafka</li>
+                        <li>DLQ</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="projetos" class="mt-4">
+            <div class="card-container">
+                <div class="row">
+                    <div class="col-12 text-center mb-3">
+                        <h2 class="title">Projetos</h2>
+                        <p>Alguns dos projetos que fiz quando trabalhava como freelancer...</p>
+                    </div>
+                    <div class="col-md-4 mb-2"><img class="img-fluid" src="./img/portfolio_1.png"></div>
+                    <div class="col-md-4 mb-2"><img class="img-fluid" src="./img/portfolio_2.png"></div>
+                    <div class="col-md-4 mb-2"><img class="img-fluid" src="./img/portfolio_3.png"></div>
+                    <div class="col-md-4 mb-2"><img class="img-fluid" src="./img/portfolio_4.png"></div>
+                    <div class="col-md-4 mb-2"><img class="img-fluid" src="./img/portfolio_5.png"></div>
+                    <div class="col-md-4 mb-2"><img class="img-fluid" src="./img/portfolio_6.png"></div>
+                    <div class="col-md-4 mb-2"><img class="img-fluid" src="./img/portfolio_7.png"></div>
+                    <div class="col-md-4 mb-2"><img class="img-fluid" src="./img/portfolio_8.png"></div>
+                    <div class="col-md-4 mb-2"><img class="img-fluid" src="./img/portfolio_9.png"></div>
+                    <div class="col-md-4 mb-2"><img class="img-fluid" src="./img/portfolio_10.png"></div>
+                    <div class="col-md-4 mb-2"><img class="img-fluid" src="./img/portfolio_11.png"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">Feito por Everaldo Filho</footer>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+</body>
+
+</html>
