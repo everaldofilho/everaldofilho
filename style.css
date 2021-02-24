@@ -307,6 +307,7 @@ a:hover{
 }
 .link {
     color: #000;
+    margin-right: 5px;
 }
 .link:hover {
     color: #fff700;
@@ -371,4 +372,5 @@ a:hover{
      display: flex;
      align-items: center;
      justify-content: center;
+     flex-direction: column;
  }
