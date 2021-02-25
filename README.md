@@ -36,8 +36,6 @@ Projetos que fiz quando trabalhava como freelancer...
         </tr>
         <tr>
             <td><img src=img/portfolio_10.png /></td>
-            <td><img src=img/portfolio_11.png /></td>
-            <td></td>
         </tr>
     </tbody>
 </table>
