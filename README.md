@@ -1,8 +1,8 @@
-# Everaldo Filho
+# Bem vindo ao meu Github! 
 
 ### Sobre mim
 
-Tenho 27 anos, moro em Ferraz de Vasconcelos – SP, trabalho como Analista de Sistema Sênior na empresa Pravaler.
+Tenho 27 anos, moro em Ferraz de Vasconcelos – SP, trabalho como Desenvolvedor de Sistemas na empresa PicPay. 
 
 Sou graduado em Analise e Desenvolvimento de Sistemas no Centro Universitário Módulo - Caraguatatuba em 2015.
 
