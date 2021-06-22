@@ -12,7 +12,7 @@ Tive oportunidades de estar ao lado de pessoas incríveis, que me ensinaram bast
 
 ### Skills
 
-`#PHP`, `#NODE`, `#VUEjs`, `#Angular`, `#Bootstrap`, `#CI/CD`, `#CLOUD`, `#GCP`, `#AWS`, `#Jenkins`, `#Solid`, `#TDD`, `#Microsservice`, `#POO`, `#MVC`, `#APIs`, `#Symfony`, `#Laravel`, `#TestUnit`, `#Docker`, `#Linux`, `#Pentaho`, `#GIT`, `#Github`, `#Bitbucket`, `#Mysql`, `#MongoDB`, `#DocumentDB`, `#PostgreSQL`, `#SQLite`, `#SQL`, `#QUEUE`, `#RabbitMQ`, `#Kafka`, `#DLQ`, 
+`#PHP`, `#VUEjs`, `#Angular`, `#Bootstrap`, `#CI/CD`, `#CLOUD`, `#GCP`, `#AWS`, `#Jenkins`, `#Solid`, `#TDD`, `#Microsservice`, `#POO`, `#MVC`, `#APIs`, `#Symfony`, `#Laravel`, `#TestUnit`, `#Docker`, `#Linux`, `#Pentaho`, `#GIT`, `#Github`, `#Bitbucket`, `#Mysql`, `#MongoDB`, `#DocumentDB`, `#PostgreSQL`, `#SQLite`, `#SQL`, `#QUEUE`, `#RabbitMQ`, `#Kafka`, `#DLQ`, 
 
 ### Projetos
 Projetos que fiz quando trabalhava como freelancer...
