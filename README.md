@@ -8,7 +8,7 @@ Sou graduado em Analise e Desenvolvimento de Sistemas no Centro Universitário M
 
 Sou apaixonado por tecnologia, já trabalhei muito como freelance, até percebe que isso estava tirando minha paz, já fui auxiliar de TI e Instrutor de Informática.
                         
-Tive oportunidades de estar ao lado de pessoas incríveis, que me ensinaram bastante e continuam ensinando, e hoje quero ser o que essas pessoas foram pra mim referência!
+Tive oportunidades de estar ao lado de pessoas incríveis, que me ensinaram bastante e continuam ensinando, e hoje quero ser o que essas pessoas foram pra mim uma boa referência!
 
 ### Skills
 
